@@ -1,5 +1,6 @@
 package com.docblock.datagen;
 
+import com.docblock.ModBlocks;
 import net.fabricmc.fabric.api.datagen.v1.FabricDataOutput;
 import net.fabricmc.fabric.api.datagen.v1.provider.FabricModelProvider;
 import net.minecraft.data.client.BlockStateModelGenerator;
@@ -13,6 +14,7 @@ public class ModModelProvider extends FabricModelProvider {
     @Override
     public void generateBlockStateModels(BlockStateModelGenerator blockStateModelGenerator) {
 
+        blockStateModelGenerator.registerSimpleCubeAll(ModBlocks.CYCLOPEAN_BRICKS);
     }
 
     @Override
