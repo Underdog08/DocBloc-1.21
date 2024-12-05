@@ -3,15 +3,15 @@
 	"id": "docbloc",
 	"version": "${version}",
 	"name": "DocBloc",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Empty text box :/",
 	"authors": [
-		"Me!"
+		"Doc"
 	],
 	"contact": {
 		"homepage": "https://fabricmc.net/",
 		"sources": "https://github.com/FabricMC/fabric-example-mod"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/docbloc/icon.png",
 	"environment": "*",
 	"entrypoints": {
